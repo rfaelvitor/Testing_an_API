@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(53, 0, 50);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#button {
+    height: 8%;
+    width: 18%;
+    margin-top: 10%;
+    background-color: rgb(104, 0, 0);
+    color: white;
+    border: 2px solid black;
+    font-size: 1.5rem;
+}
+
+#button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 5%;
+}
